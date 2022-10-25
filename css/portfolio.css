@@ -160,6 +160,11 @@ img{
     line-height: calc(26 /16);
     color: #212121;
     cursor: pointer;
+     
+    text-align: center;
+    font-family: inherit;
+    border-color: transparent;
+    border-radius: 4px
 }
 .button:hover,.button:focus{
     color: var(--accent-color);
@@ -191,7 +196,7 @@ img{
     background: #2F303A;
 }
 .footer-web{
-    font-family: var(--second-font);
+    font-family: var(--first-font);
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 /26);
