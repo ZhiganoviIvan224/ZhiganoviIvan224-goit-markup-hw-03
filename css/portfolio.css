@@ -43,6 +43,9 @@ img{
 }
 
 /*Header*/
+.header{
+    border: 1px solid #ECECEC;
+}
 .header-container{
     display: flex;
     align-items:center;
@@ -127,6 +130,8 @@ img{
     gap: 8px;
     justify-content: center;
     margin-bottom: 56px;
+    
+
 }
 .photo{
     display: flex;
@@ -138,33 +143,27 @@ img{
 .photo li{
     border: 1px solid #EEEEEE;
 }
-.main-title{
-    margin-top: 20px;
-    margin-bottom: 8px;
-    margin-left: 24px;
-    margin-right: 24px;
-}
-.main-p{
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 20px;
-}
 .section-btm-title{
     background-color:var(--accent-color);
+    padding-top: 50px;
+    padding-bottom: 114px;
 }
 .button{
-    font-family: var(--second-font);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 /16);
     color: #212121;
     cursor: pointer;
-     
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-right: 22px;
+      padding-left: 22px;
     text-align: center;
-    font-family: inherit;
     border-color: transparent;
     border-radius: 4px
 }
+
 .button:hover,.button:focus{
     color: var(--accent-color);
     background-color: var(--accent-color);
@@ -179,6 +178,12 @@ img{
     line-height: calc(36 /18);
     letter-spacing: 0.06em;
     color: #212121;
+}
+.main-title-p{
+    padding-left:24px;
+    padding-right:24px ;
+    padding-bottom:20px;
+    padding-top:20px;
 }
 
 .main-p{
