@@ -36,7 +36,7 @@ img{
 }
 /* reset and */
 .container{
-    width: 1250px;
+    width: 1220px;
     margin: 0 auto;
     padding: 0 15px;
 
@@ -46,7 +46,6 @@ img{
 .header-container{
     display: flex;
     align-items:center;
-    margin-top: 32px;
 }
 .header-nav {
     display: flex;
