@@ -44,7 +44,7 @@ img{
 
 /*Header*/
 .header{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .header-container{
     display: flex;
@@ -121,8 +121,7 @@ img{
 }
 /*Main,buttons*/
 .buttons-container{
-    margin-top: 100px;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
     align-items: center;
 }
 .buttons{
@@ -138,15 +137,14 @@ img{
     flex-wrap: wrap;
     padding: 0 4px;
     gap: 30px;
-    margin-bottom: 94px ;
 }
 .photo li{
     border: 1px solid #EEEEEE;
 }
 .section-btm-title{
     background-color:var(--accent-color);
-    padding-top: 50px;
-    padding-bottom: 114px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .button{
     font-family: inherit;
